@@ -75,6 +75,27 @@ class WikidataClient:
         )
         created_item_id = create_item_response.json().get("entity", {}).get("id")
         return created_item_id
+    
+    def create_new_property(self, language, label, description):
+        new_item_data = {
+            "labels": {language: {"language" : language, "value" : label}},
+            "descriptions": {language: {"language" : language, "value" : description}},
+        }
+        create_item_response = self.session.post(
+            self.wikidata_api_url,
+            data={
+                "action": "wbeditentity",
+                "format": "json",
+                "new": "property",
+                "token": self.edit_token,
+                "data": self.transform_json(new_item_data),
+                "formatversion": "2"
+            },
+        )
+        created_item_id = create_item_response.json().get("entity", {}).get("id")
+        if created_item_id == None:
+            return create_item_response.json()
+        return created_item_id
 
     def get_entity_by_id(self, ID, language):
         get_entity_response = self.session.get(
