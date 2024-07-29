@@ -19,7 +19,8 @@ In diesem Projekt wurden molekulare Daten von Bakterien aus *Regulon DB* in eine
 
 ## Zielsetzung
 
-Das Hauptziel war es, verschiedene Daten zu Regulons, die eine Gruppe von gemeinsam regulierten Genen repräsentieren, in einen Knowledge Graph zu integrieren. Diese Strukturierung hilft bei der Analyse und dem Verständnis biologischer Systeme.
+Das Hauptziel war es, verschiedene Daten zu Regulons, die eine Gruppe von gemeinsam regulierten Genen repräsentieren, in einen Knowledge Graph zu integrieren. Diverse Daten von Regulons wurden aus der Datenbank Regulon DB extrahiert und in einen Knowledge Graph anhand von WikiData überführt.
+Diese Strukturierung hilft bei der Analyse und dem Verständnis biologischer Systeme.
 
 ## Schritte zur Datenbeschaffung
 
