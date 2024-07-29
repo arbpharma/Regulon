@@ -41,6 +41,7 @@ Eine direkte CSV-Exportoption war nicht verfügbar, und ein vollständiges Websc
 
 Bei der Inspektion der Webseite wurde festgestellt, dass die Daten über eine GraphQL API geladen werden. Durch die Analyse des Netzwerkverkehrs konnten spezifische API-Endpunkte und Anfragen identifiziert werden. Diese API wurde dann verwendet, um gezielt Daten abzufragen und in den Knowledge Graph zu integrieren.
 
+## Daten Preparen & Hochladen (PyWikiBot)
 ### Schritt 3 & 4: Daten in Form bringen und hochladen - PyWikiBot
 
 
