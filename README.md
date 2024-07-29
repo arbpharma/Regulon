@@ -1,3 +1,47 @@
-# Regulon - Molekulare Daten von Bakterien in einen Knowledge Graph überführen
+# Molekulare Daten von Bakterien in einem Knowledge Graph
 
-Das Ziel dieses Projekts ist es, molekulare Daten von Bakterien, insbesondere Escherichia coli (E. coli), aus der Datenbank RegulonDB in einen Knowledge Graph mithilfe von Wikidata zu überführen.
+Dieses Projekt zielt darauf ab, molekulare Daten von Bakterien aus der Datenbank *Regulon DB* zu sammeln und in einen Knowledge Graph zu überführen. Dabei wurden mehrere Schritte durchlaufen, um die Daten zu extrahieren und zu strukturieren.
+
+## Inhalt
+
+1. [Einführung](#einführung)
+2. [Zielsetzung](#zielsetzung)
+3. [Schritte zur Datenbeschaffung](#schritte-zur-datenbeschaffung)
+   - [Schritt 1: Sammlung der Regulon-Namen und Links](#schritt-1-sammlung-der-regulon-namen-und-links)
+   - [Schritt 2: Webscraping mit Selenium](#schritt-2-webscraping-mit-selenium)
+   - [Schritt 3: Sammlung detaillierter Daten](#schritt-3-sammlung-detaillierter-daten)
+   - [Schritt 4: Nutzung der GraphQL API](#schritt-4-nutzung-der-graphql-api)
+4. [Zusammenfassung und Ausblick](#zusammenfassung-und-ausblick)
+
+## Einführung
+
+In diesem Projekt wurden molekulare Daten von Bakterien aus *Regulon DB* in einen Knowledge Graph überführt, um komplexe biologische Informationen zu vernetzen und zugänglich zu machen.
+
+## Zielsetzung
+
+Das Hauptziel war es, verschiedene Daten zu Regulons, die eine Gruppe von gemeinsam regulierten Genen repräsentieren, in einen Knowledge Graph zu integrieren. Diese Strukturierung hilft bei der Analyse und dem Verständnis biologischer Systeme.
+
+## Schritte zur Datenbeschaffung
+
+### Schritt 1: Sammlung der Regulon-Namen und Links - 1.Webscrape_Regulon_links.ipynb
+
+Im ersten Schritt wurden die Namen der Regulons sowie die entsprechenden Links zu ihren Einträgen in *Regulon DB* gesammelt. Diese Informationen wurden in einem Dictionary gespeichert, wobei die Regulon-Namen als Schlüssel und die Links als Werte dienten.
+
+Um die Regulon-Namen und Links zu sammeln, wurde ein Webscraping-Skript mit Selenium implementiert. Das Skript navigierte durch die Webseite und extrahierte die benötigten Informationen, um sie in einer strukturierten Form zu speichern.
+
+### Schritt 2: Sammlung detaillierter Daten - 2.get_regulon_data_graphql.ipynb
+
+Nach der Sammlung der Basisinformationen bestand der nächste Schritt darin, detailliertere Daten zu extrahieren, wie z.B.:
+- **Regulatorisches Triplett und Wirkung:** Informationen darüber, ob ein Regulator als Repressor, Aktivator oder beides wirkt.
+- **Genomische Positionen:** Start- und Endpositionen bestimmter DNA-Abschnitte.
+
+Eine direkte CSV-Exportoption war nicht verfügbar, und ein vollständiges Webscraping wurde vermieden, um den Datenverkehr zu schonen.
+
+##### Nutzung der GraphQL API
+
+Bei der Inspektion der Webseite wurde festgestellt, dass die Daten über eine GraphQL API geladen werden. Durch die Analyse des Netzwerkverkehrs konnten spezifische API-Endpunkte und Anfragen identifiziert werden. Diese API wurde dann verwendet, um gezielt Daten abzufragen und in den Knowledge Graph zu integrieren.
+
+### Schritt 3 & 4: Daten in Form bringen und hochladen - PyWikiBot
+
+
+
