@@ -23,13 +23,15 @@ Diese Strukturierung hilft bei der Analyse und dem Verständnis biologischer Sys
 ## Schritte zur Datenbeschaffung
 Alle Schritte können nochmal explizit und in Detail aus Instructions_Regulon_KG.pdf entnommen werden.
 
-### Schritt 1: Sammlung der Regulon-Namen und Links von RegulonDB - 1.Webscrape_Regulon_links.ipynb
+### Schritt 1: Sammlung der Regulon-Namen und Links von RegulonDB 
 
 Im ersten Schritt wurden die Namen der Regulons sowie die entsprechenden Links zu ihren Einträgen in *Regulon DB* gesammelt. Diese Informationen wurden in einem Dictionary gespeichert, wobei die Regulon-Namen als Schlüssel und die Links als Werte dienten.
 
 Um die Regulon-Namen und Links zu sammeln, wurde ein Webscraping-Skript mit Selenium implementiert. Das Skript navigierte durch die Webseite und extrahierte die benötigten Informationen, um sie in einer strukturierten Form zu speichern.
 
-### Schritt 2: Sammlung Daten zu Regulongs (GraphQL API von RegulonDB) - 2.get_regulon_data_graphql.ipynb
+Siehe Datei - 1.Webscrape_Regulon_links.ipynb
+
+### Schritt 2: Sammlung Daten zu Regulongs (GraphQL API von RegulonDB) 
 
 Nach der Sammlung der Basisinformationen bestand der nächste Schritt darin, detailliertere Daten zu extrahieren, wie z.B.:
 - **Regulatorisches Triplett und Wirkung:** Informationen darüber, ob ein Regulator als Repressor, Aktivator oder beides wirkt.
@@ -40,6 +42,8 @@ Eine direkte CSV-Exportoption war nicht verfügbar, und ein vollständiges Websc
 ##### Nutzung der GraphQL API
 
 Bei der Inspektion der Webseite wurde festgestellt, dass die Daten über eine GraphQL API geladen werden. Durch die Analyse des Netzwerkverkehrs konnten spezifische API-Endpunkte und Anfragen identifiziert werden. Diese API wurde dann verwendet, um gezielt Daten mit eine Python Skript abzufragen.
+
+Siehe Datei - 2.get_regulon_data_graphql.ipynb
 
 ## Daten Preparen & Hochladen (PyWikiBot)
 ### Schritt 3 & 4: Daten in Form bringen und hochladen - PyWikiBot
