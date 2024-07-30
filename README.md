@@ -51,6 +51,7 @@ Siehe Datei - 2.get_regulon_data_graphql.ipynb
 
 - **Wikidata-Muster:**
 Wikidata nutzt eine strukturierte Form von Daten, die als Tripel (Subjekt, Prädikat, Objekt) organisiert sind. Diese Tripel repräsentieren einfache Aussagen und bilden die Grundlage für den Knowledge Graph.
+Aus dem Instructions_Regulon_KG.pdf (siehe Seite 8) kann das typische Muster, das von Wikidata für die Datenintegration verwendet wird entnommen werden.
 
 - **Datenstrukturierung:**  
   Wir haben die Daten aus der RegulonDB gemäß diesem Muster neu strukturiert. Der Vorteil dieser Strukturierung ist, dass sie sowohl maschinenlesbar als auch für menschliche Benutzer nachvollziehbar ist.
