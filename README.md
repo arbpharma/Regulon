@@ -23,6 +23,7 @@ Das Hauptziel war es, verschiedene Daten zu Regulons, die eine Gruppe von gemein
 Diese Strukturierung hilft bei der Analyse und dem Verständnis biologischer Systeme.
 
 ## Schritte zur Datenbeschaffung
+Alle Schritte können nochmal explizit und in Detail aus Instructions_Regulon_KG.pdf entnommen werden.
 
 ### Schritt 1: Sammlung der Regulon-Namen und Links - 1.Webscrape_Regulon_links.ipynb
 
