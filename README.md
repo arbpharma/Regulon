@@ -31,7 +31,7 @@ Um die Regulon-Namen und Links zu sammeln, wurde ein Webscraping-Skript mit Sele
 
 Siehe Datei - 1.Webscrape_Regulon_links.ipynb
 
-### Schritt 2: Sammlung Daten zu Regulongs (GraphQL API von RegulonDB) 
+### Schritt 2: Sammlung Daten zu Regulons (GraphQL API von RegulonDB) 
 
 Nach der Sammlung der Basisinformationen bestand der nächste Schritt darin, detailliertere Daten zu extrahieren, wie z.B.:
 - **Regulatorisches Triplett und Wirkung:** Informationen darüber, ob ein Regulator als Repressor, Aktivator oder beides wirkt.
