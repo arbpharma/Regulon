@@ -9,7 +9,7 @@ Dieses Projekt zielt darauf ab, molekulare Daten von Bakterien aus der Datenbank
 3. [Schritte zur Datenbeschaffung](#schritte-zur-datenbeschaffung)
    - [Schritt 1: Sammlung der Regulon-Namen und Links von RegulonDB](#schritt-1-sammlung-der-regulon-namen-und-links-von-regulondb)
    - [Schritt 2: Sammlung Daten zu Regulons (GraphQL API von RegulonDB)](#schritt-2-sammlung-daten-zu-regulons-graphql-api-von-regulondb)
-4. [Zusammenfassung und Ausblick](#zusammenfassung-und-ausblick)
+4. 
 
 ## Einführung
 
