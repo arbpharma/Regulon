@@ -8,7 +8,7 @@ Dieses Projekt zielt darauf ab, molekulare Daten von Bakterien aus der Datenbank
 2. [Zielsetzung](#zielsetzung)
 3. [Schritte zur Datenbeschaffung](#schritte-zur-datenbeschaffung)
    - [Schritt 1: Sammlung der Regulon-Namen und Links](#schritt-1-sammlung-der-regulon-namen-und-links)
-   - [Schritt 2: Sammlung detaillierter Daten](#schritt-3-sammlung-detaillierter-daten) & Nutzung der GraphQL API](#schritt-4-nutzung-der-graphql-api)
+   - [Schritt 2: Sammlung detaillierter Daten & Nutzung der GraphQL API](#schritt-2-sammlung-detaillierter-daten--nutzung-der-graphql-api)
 4. [Zusammenfassung und Ausblick](#zusammenfassung-und-ausblick)
 
 ## Einführung
@@ -29,7 +29,7 @@ Im ersten Schritt wurden die Namen der Regulons sowie die entsprechenden Links z
 
 Um die Regulon-Namen und Links zu sammeln, wurde ein Webscraping-Skript mit Selenium implementiert. Das Skript navigierte durch die Webseite und extrahierte die benötigten Informationen, um sie in einer strukturierten Form zu speichern.
 
-### Schritt 2: Sammlung detaillierter Daten - 2.get_regulon_data_graphql.ipynb
+### Schritt 2: Sammlung detaillierter Daten & Nutzung der GraphQL API - 2.get_regulon_data_graphql.ipynb
 
 Nach der Sammlung der Basisinformationen bestand der nächste Schritt darin, detailliertere Daten zu extrahieren, wie z.B.:
 - **Regulatorisches Triplett und Wirkung:** Informationen darüber, ob ein Regulator als Repressor, Aktivator oder beides wirkt.
