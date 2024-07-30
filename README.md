@@ -23,7 +23,7 @@ Diese Strukturierung hilft bei der Analyse und dem Verständnis biologischer Sys
 ## Schritte zur Datenbeschaffung
 Alle Schritte können nochmal explizit und in Detail aus Instructions_Regulon_KG.pdf entnommen werden.
 
-### Schritt 1: Sammlung der Regulon-Namen und Links von RegulonDB- 1.Webscrape_Regulon_links.ipynb
+### Schritt 1: Sammlung der Regulon-Namen und Links von RegulonDB - 1.Webscrape_Regulon_links.ipynb
 
 Im ersten Schritt wurden die Namen der Regulons sowie die entsprechenden Links zu ihren Einträgen in *Regulon DB* gesammelt. Diese Informationen wurden in einem Dictionary gespeichert, wobei die Regulon-Namen als Schlüssel und die Links als Werte dienten.
 
