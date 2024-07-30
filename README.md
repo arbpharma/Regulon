@@ -8,9 +8,7 @@ Dieses Projekt zielt darauf ab, molekulare Daten von Bakterien aus der Datenbank
 2. [Zielsetzung](#zielsetzung)
 3. [Schritte zur Datenbeschaffung](#schritte-zur-datenbeschaffung)
    - [Schritt 1: Sammlung der Regulon-Namen und Links](#schritt-1-sammlung-der-regulon-namen-und-links)
-   - [Schritt 2: Webscraping mit Selenium](#schritt-2-webscraping-mit-selenium)
-   - [Schritt 3: Sammlung detaillierter Daten](#schritt-3-sammlung-detaillierter-daten)
-   - [Schritt 4: Nutzung der GraphQL API](#schritt-4-nutzung-der-graphql-api)
+   - [Schritt 2: Sammlung detaillierter Daten](#schritt-3-sammlung-detaillierter-daten) & Nutzung der GraphQL API](#schritt-4-nutzung-der-graphql-api)
 4. [Zusammenfassung und Ausblick](#zusammenfassung-und-ausblick)
 
 ## Einführung
