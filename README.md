@@ -29,7 +29,7 @@ Im ersten Schritt wurden die Namen der Regulons sowie die entsprechenden Links z
 
 Um die Regulon-Namen und Links zu sammeln, wurde ein Webscraping-Skript mit Selenium implementiert. Das Skript navigierte durch die Webseite und extrahierte die benötigten Informationen, um sie in einer strukturierten Form zu speichern.
 
-### Schritt 2: Sammlung detaillierter Daten & Nutzung der GraphQL API von RegulonDB - 2.get_regulon_data_graphql.ipynb
+### Schritt 2: Sammlung Daten zu Regulongs (GraphQL API von RegulonDB) - 2.get_regulon_data_graphql.ipynb
 
 Nach der Sammlung der Basisinformationen bestand der nächste Schritt darin, detailliertere Daten zu extrahieren, wie z.B.:
 - **Regulatorisches Triplett und Wirkung:** Informationen darüber, ob ein Regulator als Repressor, Aktivator oder beides wirkt.
