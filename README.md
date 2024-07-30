@@ -46,7 +46,21 @@ Bei der Inspektion der Webseite wurde festgestellt, dass die Daten über eine Gr
 Siehe Datei - 2.get_regulon_data_graphql.ipynb
 
 ## Daten Preparen & Hochladen (PyWikiBot)
-### Schritt 3 & 4: Daten in Form bringen und hochladen - PyWikiBot
+
+### Schritt 3 Formatierung der Daten für Wikidata
+
+•	Wikidata-Muster:
+o	Das Bild zeigt das typische Muster, das von Wikidata für die Datenintegration verwendet wird. Wikidata nutzt eine strukturierte Form von Daten, die als Tripel (Subjekt, Prädikat, Objekt) organisiert sind. Diese Tripel repräsentieren einfache Aussagen und bilden die Grundlage für den Knowledge Graph.
+•	Datenstrukturierung:
+o	Wir haben die Daten aus der RegulonDB gemäß diesem Muster neu strukturiert. Der Vorteil dieser Strukturierung ist, dass sie sowohl maschinenlesbar als auch für menschliche Benutzer nachvollziehbar ist.
+•	Vorgehensweise:
+o	Subjekt: Regulon-Namen (z.B. DicF, DsrA)
+o	Prädikat: Beziehungen oder Eigenschaften (z.B. reguliert, interagiert mit)
+o	Objekt: Zielgene oder -elemente (z.B. Zielgene wie "GcvB" oder "McaS")
 
 
+### 4: Daten auf WikiData hochladen - PyWikiBot
+
+Die Daten wurden mit dem PyWikiBot auf WikiData hochgeladen.
+Siehe Dokumentation zu dem Package hier:  https://pypi.org/project/pywikibot/
 
