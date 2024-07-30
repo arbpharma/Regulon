@@ -10,6 +10,8 @@ Dieses Projekt zielt darauf ab, molekulare Daten von Bakterien aus der Datenbank
    - [Schritt 1: Sammlung der Regulon-Namen und Links von RegulonDB](#schritt-1-sammlung-der-regulon-namen-und-links-von-regulondb)
    - [Schritt 2: Sammlung Daten zu Regulons (GraphQL API von RegulonDB)](#schritt-2-sammlung-daten-zu-regulons-graphql-api-von-regulondb)
 4. [Daten Preparen & Hochladen (PyWikiBot)](#daten-preparen--hochladen-pywikibot)
+   - [Schritt 3: Formatierung der Daten für Wikidata]
+   - [Schritt 4: Daten auf WikiData hochladen - PyWikiBot]
 
 ## Einführung
 
