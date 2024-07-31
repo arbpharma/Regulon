@@ -1,6 +1,6 @@
-# Molekulare Daten von Bakterien in einem Knowledge Graph
+# Molekulare Daten von Bakterien in einem Knowledge Graph überführen
 
-Dieses Projekt zielt darauf ab, molekulare Daten von Bakterien aus der Datenbank *Regulon DB* zu sammeln und in einen Knowledge Graph zu überführen. Dabei wurden mehrere Schritte durchlaufen, um die Daten zu extrahieren und zu strukturieren.
+Dieses Projekt zielt darauf ab, molekulare Daten von Bakterien aus der Datenbank *Regulon DB* zu sammeln und in einen Knowledge Graph anhand von WikiData zu überführen. Dabei wurden mehrere Schritte durchlaufen, um die Daten zu extrahieren und zu strukturieren.
 
 ## Inhalt
 
